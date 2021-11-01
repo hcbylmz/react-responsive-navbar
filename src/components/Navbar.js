@@ -4,9 +4,9 @@ import sun from "../img/sun_120349.png";
 import "./Navbar.css";
 
 export function Navbar() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
   return (
-    <div>
+    <div className="navbar-container">
       <button class="hamburger" onClick={() => setVisible(!visible)}>
         ≡{" "}
       </button>
